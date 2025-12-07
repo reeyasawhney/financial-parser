@@ -1,0 +1,236 @@
+[
+  {
+    "date": "2023-01-15",
+    "merchant": "Uber Trip",
+    "amount": 25.5,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-01-02",
+    "merchant": "Uber Technologies",
+    "amount": 30.0,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-01-03",
+    "merchant": "Uber Eats",
+    "amount": 45.75,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-01-05",
+    "merchant": "Uber Ride",
+    "amount": 22.0,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-01-06",
+    "merchant": "Uber Pool",
+    "amount": 18.5,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-01-20",
+    "merchant": "Starbucks 1234",
+    "amount": 5.5,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-01-07",
+    "merchant": "Starbucks Coffee",
+    "amount": 6.0,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-01-08",
+    "merchant": "Starbucks",
+    "amount": 4.75,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-01-09",
+    "merchant": "Starbucks 5678",
+    "amount": 7.25,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-01-10",
+    "merchant": "Amazon.com",
+    "amount": 125.99,
+    "category": "shopping"
+  },
+  {
+    "date": "2023-01-11",
+    "merchant": "Amzn Marketplace",
+    "amount": 58.20721769499418,
+    "category": "shopping"
+  },
+  {
+    "date": "2023-01-12",
+    "merchant": "Amazon",
+    "amount": 75.5,
+    "category": "shopping"
+  },
+  {
+    "date": "2023-01-13",
+    "merchant": "Amazon.com",
+    "amount": 45.0,
+    "category": "shopping"
+  },
+  {
+    "date": "2023-01-15",
+    "merchant": "Target 5678",
+    "amount": 100.0,
+    "category": "shopping"
+  },
+  {
+    "date": "2023-01-16",
+    "merchant": "Target Store",
+    "amount": 85.25,
+    "category": "shopping"
+  },
+  {
+    "date": "2023-01-17",
+    "merchant": "Target",
+    "amount": 42.0,
+    "category": "shopping"
+  },
+  {
+    "date": "2023-01-18",
+    "merchant": "Walmart Supercenter",
+    "amount": 200.0,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-01-19",
+    "merchant": "Walmart 4321",
+    "amount": 150.75,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-01-20",
+    "merchant": "Walmart Store",
+    "amount": 95.0,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-01-21",
+    "merchant": "Walmart",
+    "amount": 78.5,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-01-22",
+    "merchant": "Shell Oil",
+    "amount": 55.0,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-01-23",
+    "merchant": "Shell 9876",
+    "amount": 60.5,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-01-24",
+    "merchant": "Shell",
+    "amount": 52.75,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-01-25",
+    "merchant": "Mcdonalds",
+    "amount": 12.5,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-01-26",
+    "merchant": "Mcdonalds",
+    "amount": 15.0,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-01-27",
+    "merchant": "Mcdonalds Restaurant",
+    "amount": 18.25,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-01-28",
+    "merchant": "Mcdonalds 123",
+    "amount": 14.0,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-01-29",
+    "merchant": "Costco Wholesale",
+    "amount": 250.0,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-01-30",
+    "merchant": "Costco 456",
+    "amount": 180.5,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-01-31",
+    "merchant": "Costco",
+    "amount": 165.0,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-02-01",
+    "merchant": "Whole Foods",
+    "amount": 89.99,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-02-02",
+    "merchant": "Whole Foods Market",
+    "amount": 95.5,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-02-03",
+    "merchant": "Whole Foods 789",
+    "amount": 72.25,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-02-05",
+    "merchant": "Chipotle",
+    "amount": 15.75,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-02-06",
+    "merchant": "Chipotle Mexican Grill",
+    "amount": 18.5,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-02-07",
+    "merchant": "Chipotle 234",
+    "amount": 16.25,
+    "category": "food & dining"
+  },
+  {
+    "date": "2023-02-08",
+    "merchant": "Cvs Pharmacy",
+    "amount": 35.0,
+    "category": "health"
+  },
+  {
+    "date": "2023-02-09",
+    "merchant": "Cvs 1122",
+    "amount": 42.75,
+    "category": "health"
+  },
+  {
+    "date": "2023-02-10",
+    "merchant": "Cvs",
+    "amount": 28.5,
+    "category": "health"
+  }
+]

@@ -1,0 +1,27 @@
+from pathlib import Path
+from src.parser import parseTransactions
+from src.cleaner import standardizeTransactions
+from src.analyzer import outputReport
+import json
+import sys
+
+def main():
+
+    input = Path('data/messy.csv')
+
+    try:
+        transactions = parseTransactions(str(input))
+        cleanedData = standardizeTransactions(transactions)
+        output = Path('data/standardizedList.json')
+        with open(output, 'w') as f:
+            json.dump(cleanedData, f, indent=2)
+        report = outputReport(cleanedData)
+        print(report)
+
+
+    except Exception as e:
+        print(f"Error: {e}")
+        sys.exit()
+
+if __name__ == "__main__":
+    main()

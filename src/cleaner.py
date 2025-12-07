@@ -1,0 +1,138 @@
+from dateutil import parser
+from price_parser import Price
+from forex_python.converter import CurrencyRates
+from typing import Dict, List
+import re
+
+import requests
+from datetime import datetime, timedelta
+
+conversionsCache = {}
+timestamp = None
+
+currency_converter = CurrencyRates()
+
+CURRENCY_SYMBOLS = {
+    '$': 'USD',
+    '€': 'EUR',
+    '£': 'GBP',
+    '¥': 'JPY',
+    '₹': 'INR',
+    '₩': 'KRW',
+    '₣': 'CHF', 
+    '₽': 'RUB',
+}
+
+def calcConversionRates():
+    global conversionsCache
+    global timestamp
+    
+    if timestamp and (datetime.now() - timestamp) < timedelta(hours=24):
+        return conversionsCache
+    
+    try:
+        response = requests.get('https://api.exchangerate-api.com/v4/latest/USD')
+        data = response.json()
+        conversionsCache = data['rates']
+        timestamp = datetime.now()
+        return conversionsCache
+    except Exception as e:
+        print(f"Unable to fetch the conversion rates: {e}")
+
+def cleanCurrencySymbol(amount: str) -> str:
+    amount = str(amount).strip()
+    
+    for symbol, code in CURRENCY_SYMBOLS.items():
+        if symbol in amount:
+            return code
+    
+    unknown = any(ord(char) > 127 and not char.isdigit() for char in amount)
+    if unknown:
+        print(f"Warning: Unknown currency symbol in '{amount}', treating as USD")
+    return 'USD'
+
+def dateCleaner(date: str) -> str:
+    try:
+        cleanedDate = parser.parse(str(date), fuzzy=True)
+        return cleanedDate.strftime('%Y-%m-%d')
+    except Exception as e:
+            print(f"Unable to parse the date: {date} - {e}")
+            return str(date)  
+    
+def merchantCleaner(merchant: str) -> str:
+
+    cleanedMerchant = str(merchant).lower().strip()
+    cleanedMerchant = re.sub(r'[^a-z0-9\s./]', '', cleanedMerchant)
+    cleanedMerchant = ' '.join(cleanedMerchant.split())
+
+    words = cleanedMerchant.split(' ')
+    capitalizedWords = []
+    for word in words:
+        capitalizedWords.append(word.capitalize())
+    cleanedMerchant = ' '.join(capitalizedWords)
+
+    return cleanedMerchant
+
+def amountCleaner(amount: str) -> str:
+
+    original = str(amount)
+    currencyType = cleanCurrencySymbol(original)
+
+    try:
+        cleanedAmount = Price.fromstring(original)
+        if cleanedAmount.amount is not None:
+            number = float(cleanedAmount.amount)
+    except Exception:
+        pass
+
+    if number is None:
+        try:
+            cleanedAmount = original.strip()
+            cleanedAmount = re.sub(r'[^\d.,\-]', '', cleanedAmount)
+            cleanedAmount = cleanedAmount.replace(',', '')
+            number = float(cleanedAmount)
+        except ValueError as e:
+            print(f"Unable to parse the amount: {amount} - {e}")
+            return 0.0
+
+    if currencyType != 'USD':
+        try:
+            rates = calcConversionRates()
+            if rates and currencyType in rates:
+                converted = number / rates[currencyType]
+                return converted
+            else:
+                print(f"Currency conversion rates unavailable for {currencyType}, using original amount as USD")
+                return number
+        except Exception as e:
+            print(f"Currency conversion failed for {currencyType}, using original amount as USD")
+            print({e})
+            return number
+    
+    return number
+
+def categoryCleaner(category: str) -> str:
+    return category.lower().strip()
+
+def transactionCleaner(transaction: Dict) -> Dict:
+    cleanedTransaction = {
+        'date': dateCleaner(transaction['date']),
+        'merchant': merchantCleaner(transaction['merchant']),
+        'amount': amountCleaner(transaction['amount']),
+        'category': categoryCleaner(transaction['category']),
+    }
+    
+    return cleanedTransaction
+
+def standardizeTransactions(transactions: List[Dict]) -> List[Dict]:
+
+    standardized = []
+
+    for val in transactions:
+        try:
+            cleaned = transactionCleaner(val)
+            standardized.append(cleaned)
+        except Exception as e:
+            print(f"There was an error standardizing the transaction: {val} - {e}")
+    
+    return standardized

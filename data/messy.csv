@@ -1,0 +1,40 @@
+date,merchant,amount,category
+2023-01-15,UBER *TRIP,$ 25.50,transportation
+Jan 2nd 2023,Uber Technologies,$30.00,transportation
+01/03/2023,UBER EATS,  $45.75  ,food & dining
+2023-01-05,uber *ride, $22.00,transportation
+January 6th 2023,UBER *POOL,$ 18.50,transportation
+2023-01-20,STARBUCKS #1234,$5.50,food & dining
+Jan 7th 23,Starbucks Coffee,$ 6.00,food & dining
+01-08-2023,STARBUCKS,  $4.75,food & dining
+2023/01/09,starbucks #5678,$7.25,food & dining
+2023-01-10,AMAZON.COM,$125.99,shopping
+Jan 11 2023,AMZN Marketplace,€ 50.00,shopping
+01/12/23,Amazon,$75.50,shopping
+January 13 2023,amazon.com,$45.00,shopping
+2023-01-15,TARGET #5678,$100.00,shopping
+Jan 16th 2023,Target Store,$  85.25,shopping
+01/17/2023,target, $42.00,shopping
+2023-01-18,WALMART SUPERCENTER,$200.00,groceries
+Jan 19 2023,Walmart #4321,$ 150.75  ,groceries
+01/20/2023,walmart store, $95.00,groceries
+2023/01/21,Walmart,$78.50,groceries
+2023-01-22,SHELL OIL,$ 55.00,transportation
+Jan 23 2023,Shell #9876,$60.50,transportation
+01/24/2023,shell,  $52.75,transportation
+2023-01-25,McDonald's,$12.50,food & dining
+Jan 26 2023,MCDONALDS,  $ 15.00,food & dining
+01/27/2023,McDonalds Restaurant, $18.25,food & dining
+2023-01-28,mcdonald's #123,$14.00,food & dining
+2023-01-29,COSTCO WHOLESALE,$  250.00,groceries
+Jan 30 2023,Costco #456,$180.50,groceries
+01/31/2023,costco,$165.00,groceries
+2023-02-01,WHOLE FOODS,$ 89.99,groceries
+Feb 2nd 23,Whole Foods Market,  $95.50,groceries
+02/03/2023,whole foods #789,$72.25,groceries
+2023-02-05,CHIPOTLE,$15.75,food & dining
+Feb 6 2023,Chipotle Mexican Grill,$ 18.50  ,food & dining
+02-07-2023,chipotle #234,  $16.25,food & dining
+2023/02/08,CVS PHARMACY,$35.00,health
+Feb 9th 2023,CVS #1122,  $ 42.75,health
+02/10/23,cvs,$28.50,health
