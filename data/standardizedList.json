@@ -24,12 +24,6 @@
     "category": "transportation"
   },
   {
-    "date": "2023-01-06",
-    "merchant": "Uber Pool",
-    "amount": 18.5,
-    "category": "transportation"
-  },
-  {
     "date": "2023-01-20",
     "merchant": "Starbucks 1234",
     "amount": 5.5,
@@ -66,12 +60,6 @@
     "category": "shopping"
   },
   {
-    "date": "2023-01-12",
-    "merchant": "Amazon",
-    "amount": 75.5,
-    "category": "shopping"
-  },
-  {
     "date": "2023-01-13",
     "merchant": "Amazon.com",
     "amount": 45.0,
@@ -92,7 +80,7 @@
   {
     "date": "2023-01-17",
     "merchant": "Target",
-    "amount": 42.0,
+    "amount": 56.0,
     "category": "shopping"
   },
   {
@@ -108,27 +96,15 @@
     "category": "groceries"
   },
   {
-    "date": "2023-01-20",
-    "merchant": "Walmart Store",
-    "amount": 95.0,
-    "category": "groceries"
-  },
-  {
     "date": "2023-01-21",
     "merchant": "Walmart",
-    "amount": 78.5,
+    "amount": 50.5798969072165,
     "category": "groceries"
   },
   {
     "date": "2023-01-22",
     "merchant": "Shell Oil",
     "amount": 55.0,
-    "category": "transportation"
-  },
-  {
-    "date": "2023-01-23",
-    "merchant": "Shell 9876",
-    "amount": 60.5,
     "category": "transportation"
   },
   {
@@ -170,7 +146,7 @@
   {
     "date": "2023-01-30",
     "merchant": "Costco 456",
-    "amount": 180.5,
+    "amount": 200.48872598022882,
     "category": "groceries"
   },
   {
@@ -186,12 +162,6 @@
     "category": "groceries"
   },
   {
-    "date": "2023-02-02",
-    "merchant": "Whole Foods Market",
-    "amount": 95.5,
-    "category": "groceries"
-  },
-  {
     "date": "2023-02-03",
     "merchant": "Whole Foods 789",
     "amount": 72.25,
@@ -201,12 +171,6 @@
     "date": "2023-02-05",
     "merchant": "Chipotle",
     "amount": 15.75,
-    "category": "food & dining"
-  },
-  {
-    "date": "2023-02-06",
-    "merchant": "Chipotle Mexican Grill",
-    "amount": 18.5,
     "category": "food & dining"
   },
   {
@@ -232,5 +196,293 @@
     "merchant": "Cvs",
     "amount": 28.5,
     "category": "health"
+  },
+  {
+    "date": "2023-02-11",
+    "merchant": "Netflix.com/subscription",
+    "amount": 15.99,
+    "category": "entertainment"
+  },
+  {
+    "date": "2023-02-12",
+    "merchant": "Netflix Streaming",
+    "amount": 15.99,
+    "category": "entertainment"
+  },
+  {
+    "date": "2023-02-13",
+    "merchant": "Spotify Premium",
+    "amount": 9.99,
+    "category": "entertainment"
+  },
+  {
+    "date": "2023-02-14",
+    "merchant": "Spotify Subscription",
+    "amount": 9.99,
+    "category": "entertainment"
+  },
+  {
+    "date": "2023-02-15",
+    "merchant": "Apple.com/bill",
+    "amount": 99.0,
+    "category": "tech"
+  },
+  {
+    "date": "2023-02-17",
+    "merchant": "Best Buy 1234",
+    "amount": 450.0,
+    "category": "tech"
+  },
+  {
+    "date": "2023-02-18",
+    "merchant": "Best Buy",
+    "amount": 225.5,
+    "category": "tech"
+  },
+  {
+    "date": "2023-02-20",
+    "merchant": "Home Depot 456",
+    "amount": 135.75,
+    "category": "home"
+  },
+  {
+    "date": "2023-02-21",
+    "merchant": "Home Depot Store",
+    "amount": 85.5,
+    "category": "home"
+  },
+  {
+    "date": "2023-02-22",
+    "merchant": "Lowes",
+    "amount": 84.91270973439305,
+    "category": "home"
+  },
+  {
+    "date": "2023-02-23",
+    "merchant": "Amc Theaters",
+    "amount": 30.0,
+    "category": "entertainment"
+  },
+  {
+    "date": "2023-02-25",
+    "merchant": "Door Dash Delivery",
+    "amount": 42.5,
+    "category": "food"
+  },
+  {
+    "date": "2023-02-26",
+    "merchant": "Doordash",
+    "amount": 38.75,
+    "category": "food"
+  },
+  {
+    "date": "2023-02-27",
+    "merchant": "Grubhub Order",
+    "amount": 31.75,
+    "category": "food"
+  },
+  {
+    "date": "2023-02-28",
+    "merchant": "Grubhub",
+    "amount": 29.5,
+    "category": "food"
+  },
+  {
+    "date": "2023-03-01",
+    "merchant": "Delta Air Lines",
+    "amount": 350.0,
+    "category": "travel"
+  },
+  {
+    "date": "2023-03-02",
+    "merchant": "Delta Airlines",
+    "amount": 275.0,
+    "category": "travel"
+  },
+  {
+    "date": "2023-03-03",
+    "merchant": "Airbnb Reservation",
+    "amount": 250.0,
+    "category": "travel"
+  },
+  {
+    "date": "2023-03-05",
+    "merchant": "Lyft Ride",
+    "amount": 18.5,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-03-06",
+    "merchant": "Lyft Driver",
+    "amount": 22.0,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-03-07",
+    "merchant": "Panera Bread",
+    "amount": 15.5,
+    "category": "food"
+  },
+  {
+    "date": "2023-03-08",
+    "merchant": "Panera 234",
+    "amount": 17.25,
+    "category": "food"
+  },
+  {
+    "date": "2023-03-09",
+    "merchant": "Walgreens",
+    "amount": 28.5,
+    "category": "health"
+  },
+  {
+    "date": "2023-10-03",
+    "merchant": "Walgreens Pharmacy",
+    "amount": 32.75,
+    "category": "health"
+  },
+  {
+    "date": "2023-03-12",
+    "merchant": "Tokyo Sushi",
+    "amount": 16.108247422680414,
+    "category": "food"
+  },
+  {
+    "date": "2023-03-13",
+    "merchant": "Mumbai Restaurant",
+    "amount": 13.884260801954904,
+    "category": "food"
+  },
+  {
+    "date": "2023-03-14",
+    "merchant": "London Cafe",
+    "amount": 47.333333333333336,
+    "category": "food"
+  },
+  {
+    "date": "2023-03-16",
+    "merchant": "Korean Restaurant",
+    "amount": 23.775558725630052,
+    "category": "food"
+  },
+  {
+    "date": "2023-03-17",
+    "merchant": "Swiss Cafe",
+    "amount": 65.0,
+    "category": "food"
+  },
+  {
+    "date": "2023-03-18",
+    "merchant": "Trader Joes",
+    "amount": 125.5,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-03-19",
+    "merchant": "Trader Joes Store",
+    "amount": 95.0,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-03-21",
+    "merchant": "Safeway 567",
+    "amount": 155.75,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-03-22",
+    "merchant": "Publix Supermarket",
+    "amount": 210.0,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-03-23",
+    "merchant": "Publix Store",
+    "amount": 145.5,
+    "category": "groceries"
+  },
+  {
+    "date": "2023-03-25",
+    "merchant": "Bp Gas Station",
+    "amount": 70.5,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-03-26",
+    "merchant": "Chevron",
+    "amount": 58.75,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-03-27",
+    "merchant": "Exxon Mobil",
+    "amount": 64.0279394644936,
+    "category": "transportation"
+  },
+  {
+    "date": "2023-03-28",
+    "merchant": "Marriott Hotel",
+    "amount": 325.0,
+    "category": "travel"
+  },
+  {
+    "date": "2023-03-29",
+    "merchant": "Marriott Reservation",
+    "amount": 285.0,
+    "category": "travel"
+  },
+  {
+    "date": "2023-03-30",
+    "merchant": "Hilton Hotels",
+    "amount": 410.0,
+    "category": "travel"
+  },
+  {
+    "date": "2023-04-01",
+    "merchant": "Verizon Wireless",
+    "amount": 85.0,
+    "category": "utilities"
+  },
+  {
+    "date": "2023-04-02",
+    "merchant": "Verizon Payment",
+    "amount": 85.0,
+    "category": "utilities"
+  },
+  {
+    "date": "2023-03-04",
+    "merchant": "Att Mobility",
+    "amount": 95.0,
+    "category": "utilities"
+  },
+  {
+    "date": "2023-04-04",
+    "merchant": "Att Wireless",
+    "amount": 95.0,
+    "category": "utilities"
+  },
+  {
+    "date": "2023-04-06",
+    "merchant": "Pge Electric",
+    "amount": 135.75,
+    "category": "utilities"
+  },
+  {
+    "date": "2023-04-08",
+    "merchant": "Water Utility District",
+    "amount": 55.0,
+    "category": "utilities"
+  },
+  {
+    "date": "2023-04-09",
+    "merchant": "Internet Service",
+    "amount": 79.99,
+    "category": "utilities"
+  },
+  {
+    "date": "2023-10-04",
+    "merchant": "Comcast Xfinity",
+    "amount": 89.99,
+    "category": "utilities"
   }
 ]

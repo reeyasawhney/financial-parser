@@ -3,38 +3,97 @@ date,merchant,amount,category
 Jan 2nd 2023,Uber Technologies,$30.00,transportation
 01/03/2023,UBER EATS,  $45.75  ,food & dining
 2023-01-05,uber *ride, $22.00,transportation
-January 6th 2023,UBER *POOL,$ 18.50,transportation
+January 6th 2023,UBER *POOL,$ 18.50,
 2023-01-20,STARBUCKS #1234,$5.50,food & dining
 Jan 7th 23,Starbucks Coffee,$ 6.00,food & dining
 01-08-2023,STARBUCKS,  $4.75,food & dining
-2023/01/09,starbucks #5678,$7.25,food & dining
+2023/01/09,starbucks #5678,7.25 USD,food & dining
 2023-01-10,AMAZON.COM,$125.99,shopping
 Jan 11 2023,AMZN Marketplace,€ 50.00,shopping
-01/12/23,Amazon,$75.50,shopping
+01/12/23,Amazon,,$shopping
 January 13 2023,amazon.com,$45.00,shopping
 2023-01-15,TARGET #5678,$100.00,shopping
 Jan 16th 2023,Target Store,$  85.25,shopping
-01/17/2023,target, $42.00,shopping
+01/17/2023,target, £42.00,shopping
 2023-01-18,WALMART SUPERCENTER,$200.00,groceries
 Jan 19 2023,Walmart #4321,$ 150.75  ,groceries
-01/20/2023,walmart store, $95.00,groceries
-2023/01/21,Walmart,$78.50,groceries
+01/20/2023,walmart store, $95.00,
+2023/01/21,Walmart,¥7850,groceries
 2023-01-22,SHELL OIL,$ 55.00,transportation
-Jan 23 2023,Shell #9876,$60.50,transportation
+,Shell #9876,$60.50,transportation
 01/24/2023,shell,  $52.75,transportation
 2023-01-25,McDonald's,$12.50,food & dining
 Jan 26 2023,MCDONALDS,  $ 15.00,food & dining
-01/27/2023,McDonalds Restaurant, $18.25,food & dining
-2023-01-28,mcdonald's #123,$14.00,food & dining
+01/27/2023,McDonalds Restaurant, 18.25 GBP,food & dining
+2023-01-28,mcdonald's #123,$$14.00,food & dining
 2023-01-29,COSTCO WHOLESALE,$  250.00,groceries
-Jan 30 2023,Costco #456,$180.50,groceries
+Jan 30 2023,Costco #456,₹18050.00 INR,groceries
 01/31/2023,costco,$165.00,groceries
 2023-02-01,WHOLE FOODS,$ 89.99,groceries
-Feb 2nd 23,Whole Foods Market,  $95.50,groceries
-02/03/2023,whole foods #789,$72.25,groceries
+Feb 2nd 23,Whole Foods Market,  $95.50,
+02/03/2023,whole foods #789,CHF 72.25,groceries
 2023-02-05,CHIPOTLE,$15.75,food & dining
-Feb 6 2023,Chipotle Mexican Grill,$ 18.50  ,food & dining
+Feb 6 2023,,$ 18.50  ,food & dining
 02-07-2023,chipotle #234,  $16.25,food & dining
 2023/02/08,CVS PHARMACY,$35.00,health
 Feb 9th 2023,CVS #1122,  $ 42.75,health
-02/10/23,cvs,$28.50,health
+02/10/23,cvs,28.50 EUR,health
+2023.02.11,NETFLIX.COM/SUBSCRIPTION,$15.99,Entertainment
+12-Feb-2023,Netflix Streaming, 15.99 USD ,Entertainment
+13/02/23, SPOTIFY PREMIUM ,$ 9.99,Entertainment
+2023-2-14,spotify *subscription,9.99 EUR,Entertainment
+15 February 2023,APPLE.COM/BILL,$ 99.00,Tech
+2023/02/16,Apple Store Online,,$Tech
+Feb 17th 23,BEST BUY #1234,450.00,Tech
+18.02.2023,best buy,$$$225.50,Tech
+,Target #789,$55.00,Shopping
+2023-02-20,HOME DEPOT #456,$ 135.75,Home
+21-FEB-2023,home depot store,  85.50 GBP  ,Home
+2023.02.22,LOWE'S,₩125000 KRW,Home
+23/02/2023,AMC THEATERS,$30.00,Entertainment
+Feb 24 2023,amc movies, $35.50 ,
+25th Feb 2023,DOOR DASH *DELIVERY,42.50,Food
+2023-02-26,DoorDash,$38.75,Food
+27-Feb-2023,GRUBHUB *ORDER,$ 31.75,Food
+2023/2/28,grubhub,29.50 USD,Food
+2023-03-01,DELTA AIR LINES,$350.00,Travel
+Mar 2nd 23,delta airlines,  $ 275.00,Travel
+03/03/2023,AIRBNB *RESERVATION,250.00 EUR,Travel
+2023-03-04,airbnb,$200.00,
+05-March-2023,LYFT *RIDE,$ 18.50,Transportation
+2023.03.06,Lyft Driver,22.00,Transportation
+7 Mar 2023,PANERA BREAD,$15.50,Food
+2023/03/08,panera #234,  $17.25  ,Food
+Mar 9th 23,WALGREENS,$ 28.50,Health
+10.03.2023,walgreens pharmacy,32.75 GBP,Health
+2023-03-11,,$ 45.00,Food
+12-Mar-2023,Tokyo Sushi,¥2500,Food
+13/03/23,Mumbai Restaurant,₹1250.00 INR,Food
+2023-3-14,London Cafe,£35.50 GBP,Food
+March 15 2023,Paris Bistro,€42.75 EUR,
+2023/03/16,Korean Restaurant,₩35000 KRW,Food
+17-MAR-2023,Swiss Cafe,CHF 65.00,Food
+2023.03.18,TRADER JOE'S,$125.50,groceries
+Mar 19th 23,trader joes store,$$$95.00,groceries
+20/03/2023,SAFEWAY GROCERY,$180.00,
+2023-03-21,safeway #567,  $ 155.75,groceries
+22 March 2023,PUBLIX SUPERMARKET,$ 210.00,groceries
+2023/03/23,publix store,145.50 USD,groceries
+,GAS STATION SHELL,$65.00,transportation
+Mar 25 2023,BP Gas Station,  $70.50,transportation
+26.03.2023,chevron,$58.75,transportation
+2023-03-27,EXXON MOBIL,€55.00,transportation
+28-Mar-2023,Marriott Hotel,$325.00,Travel
+2023/3/29,marriott *reservation,  $ 285.00,Travel
+March 30th 2023,HILTON HOTELS,$410.00,Travel
+2023-03-31,hilton garden inn,375.50 GBP,
+2023-04-01,VERIZON WIRELESS,$85.00,Utilities
+Apr 2nd 23,verizon *payment,  $ 85.00  ,Utilities
+03/04/2023,AT&T MOBILITY,$95.00,Utilities
+2023-04-04,att wireless,$$95.00,Utilities
+05-April-2023,,$125.50,Utilities
+2023.04.06,PG&E Electric, $ 135.75,Utilities
+7 Apr 2023,Southern California Edison,$145.00,
+2023/04/08,water utility district,55.00 USD,Utilities
+Apr 9th 23,INTERNET SERVICE,$79.99,Utilities
+10.04.2023,comcast xfinity,  $89.99,Utilities

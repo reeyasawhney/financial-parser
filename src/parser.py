@@ -44,18 +44,13 @@ def parseTransactions(filepath: str) -> List[Dict]:
     valid = []
     invalid = 0
 
-    inval = []
-
     for val in transactions:
         if validateTransactions(val):
             valid.append(val)
         else: 
             invalid += 1
-            inval.append(val)
     
     if invalid > 0:
         print(f"Skipped {invalid} transactions because they did not have all 4 required fields.")
-        for i in inval:
-            print(i)
 
     return valid
