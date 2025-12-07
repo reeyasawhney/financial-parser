@@ -9,7 +9,7 @@
 * cleaner.py - clean each of the 4 fields and standardize the transactions
 * analyzer.py - calculate top spending category and output a financial report
 
-**Design Choices**
+**Design Choices & Methodology**
 * I imported the dateutil library and used dateutil.parser.parse() with fuzzy matching to normalize parsing through dates of different formats. This library can handle standard ISO, text, slash, and date formats. I prompted Claude to generate the code for this and validated it against 10 different date formats.
 * I prompted the regex library to clean the merchant names by converting the complete string to lowercase, removing non-ASCII characters, normalizing whitespace, and capitalizing the first letter of each word.
     * I initially attempted to implement fuzzy matching for the merchant names (ex: Uber Eats and Uber Trip would normalize to Uber), but I decided against that in my final implementation because these merchant names could be part of different categories (ex: Food vs Transportation).
