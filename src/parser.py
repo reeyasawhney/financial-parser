@@ -27,7 +27,6 @@ def parseTransactions(filepath: str) -> List[Dict]:
     
     try:
         parsed = pandas.read_csv(filepath, encoding='utf-8', encoding_errors='replace', on_bad_lines='skip')
-        #ADDED ON BAD LINES NEWLYYY
     except Exception as e:
         raise ValueError(f"There was an error parsing the file: {str(e)}")
     
