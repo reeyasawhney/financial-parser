@@ -1,7 +1,8 @@
 **Instructions to Run Program**
 1. Clone this repository
-2. Install dependencies: pip install pandas python-dateutil price-parser rapidfuzz forex-python requests
-3. Run on command line: python main.py
+2. Create a python virtual environment
+3. Install dependencies: pip install pandas python-dateutil price-parser rapidfuzz forex-python requests
+4. Run on command line: python main.py
 
 **Architechture**
 * parser.py - parse through CSV and validate transactions
